@@ -2,8 +2,6 @@
    <img src=".github/assets/home.png" alt="fake-store-cart"/>
 </p>
 
-<video src='.github/assets/fake-store-pc.mp4' width=180/>
-<video src='.github/assets/fake-store-reponsive.mp4' width=180/>
 
 # Fake Store Cart
 
@@ -46,3 +44,14 @@ For run cypress tests:
 ```bash
 yarn cypress
 ```
+
+#### 📱 Preview Responsive
+
+<p align="center">
+<video src='https://user-images.githubusercontent.com/38052474/151982245-03c3e2a3-a2f1-4a2a-b11c-d0f5208ad769.mp4' width=180/> 
+</p>
+
+####  💻 Preview PC
+<p align="center">
+<video src='https://user-images.githubusercontent.com/38052474/151982207-c4505221-bdc0-4e1d-9236-1f2f37f22ba1.mp4' width=180/>
+</p>
