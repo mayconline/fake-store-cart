@@ -1,0 +1,35 @@
+{
+  "short_name": "Store Cart",
+  "name": "Rebalanceei - Store Cart, the best offers for you - Using Fake Store API",
+  "icons": [
+    {
+      "src": "icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+
+    {
+      "src": "icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#5965e0",
+  "background_color": "#5965e0",
+  "scope": "/",
+  "orientation": "portrait",
+  "splash_pages": null
+}
