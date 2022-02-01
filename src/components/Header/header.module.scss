@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blue);
+  min-width: 100%;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 2rem;
+
+    button {
+      background-color: transparent;
+      border: 1px solid var(--gray-line);
+      padding: 0.5rem 2rem;
+    }
+  }
+
+  .icon {
+    font-size: 1.8rem;
+    color: var(--white);
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+}

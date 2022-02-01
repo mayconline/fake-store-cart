@@ -1,0 +1,50 @@
+.container {
+  display: block;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 5px;
+  min-width: 100%;
+
+  .infoblock {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+
+    > main {
+      display: block;
+      margin-left: 1rem;
+      max-width: 80%;
+
+      .description {
+        color: var(--text);
+        font-size: 1rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .price {
+        color: var(--green-light);
+      }
+    }
+  }
+
+  button {
+    padding: 0.5rem 4rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .icon {
+    font-size: 1.6rem;
+    color: var(--white);
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    margin-top: 1rem;
+  }
+}

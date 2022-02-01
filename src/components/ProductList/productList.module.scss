@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 1rem;
+  margin: 0.5rem 4rem;
+}
+
+@media (max-width: 720px) {
+  .container {
+    display: block;
+    margin: 0;
+  }
+}
