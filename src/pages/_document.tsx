@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="theme-color" content="#000" />
+          <meta name="theme-color" content="#5965e0" />
           <meta
             name="description"
             content="Store Cart, the best offers for you - Using Fake Store API"
