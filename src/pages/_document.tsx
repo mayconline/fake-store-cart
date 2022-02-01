@@ -33,7 +33,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:url"
-            content="https://store-cart-fake.vercel.app"
+            content="https://fake-store-cart.vercel.app/"
           />
           <meta property="og:site_name" content="Store Cart" />
           <meta property="fb:admins" content="99999999" />
@@ -54,7 +54,7 @@ export default class MyDocument extends Document {
           />
           <meta
             name="twitter:url"
-            content="https://store-cart-fake.vercel.app"
+            content="https://fake-store-cart.vercel.app/"
           />
 
           <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
