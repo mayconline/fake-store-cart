@@ -1,4 +1,4 @@
-import { CART_MOCK, expect } from '../../utils/testProvider';
+import { CART_MOCK } from '../../utils/testProvider';
 import { renderHook, act } from '@testing-library/react-hooks';
 import { CartProvider } from '../../contexts/cartContext';
 import useCart from '.';

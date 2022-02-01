@@ -1,10 +1,4 @@
-import {
-  render,
-  screen,
-  userEvent,
-  CART_MOCK,
-  expect,
-} from '../../utils/testProvider';
+import { render, screen, userEvent, CART_MOCK } from '../../utils/testProvider';
 import Modal from './index';
 import CartList from '../CartList';
 

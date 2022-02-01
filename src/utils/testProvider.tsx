@@ -7,7 +7,6 @@ import {
   getByRole,
 } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { expect } from '@jest/globals';
 import { CartContext } from '../contexts/cartContext';
 
 export const CART_MOCK = ({ quantity }: { quantity: number }) => [
@@ -79,5 +78,4 @@ export {
   getByTitle,
   getByRole,
   userEvent,
-  expect,
 };

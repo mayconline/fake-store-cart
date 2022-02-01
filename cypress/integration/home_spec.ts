@@ -1,5 +1,3 @@
-import { should } from 'chai';
-
 describe('Home', () => {
   it('should interact with page', () => {
     cy.visit('http://localhost:3000/');

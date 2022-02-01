@@ -4,7 +4,6 @@ import {
   getByText,
   getByRole,
   PRODUCT_MOCK,
-  expect,
 } from '../../utils/testProvider';
 import ProductList from './index';
 

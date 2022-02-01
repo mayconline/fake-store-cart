@@ -1,4 +1,4 @@
-import { render, screen, expect } from '../../utils/testProvider';
+import { render, screen } from '../../utils/testProvider';
 import EmptyCart from './index';
 
 describe('Empty Cart', () => {

@@ -3,7 +3,6 @@ import {
   screen,
   userEvent,
   PRODUCT_MOCK,
-  expect,
 } from '../../utils/testProvider';
 import ProductItem from './index';
 

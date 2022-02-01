@@ -5,7 +5,6 @@ import {
   getByTitle,
   getByRole,
   CART_MOCK,
-  expect,
 } from '../../utils/testProvider';
 import CartList from './index';
 

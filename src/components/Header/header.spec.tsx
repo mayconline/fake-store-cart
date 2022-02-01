@@ -1,4 +1,4 @@
-import { render, screen, userEvent, expect } from '../../utils/testProvider';
+import { render, screen, userEvent } from '../../utils/testProvider';
 import Header from './index';
 
 describe('Header', () => {
